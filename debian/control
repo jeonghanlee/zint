@@ -2,14 +2,14 @@ Source: zint
 Section: libs
 Priority: extra
 Maintainer: Robin Stuart <robin@zint.org.uk>
-Build-Depends: cdbs, debhelper (>= 7), cmake, libpng12-dev, libqt4-dev
+Build-Depends: cdbs, debhelper (>= 7), cmake, libpng-dev, libqt4-dev
 Standards-Version: 3.9.1
 Homepage: http://www.zint.org.uk/
 
 Package: zint
 Section: libs
 Architecture: any
-Depends: libpng12-dev
+Depends: libpng-dev
 Description: A library for encoding data in barcode symbols.
    Zint is an Open Source barcode encoding and image generating library.
    It currently features support for over 50 symbologies including
